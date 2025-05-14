@@ -1,0 +1,11 @@
+[package]
+name = "genetic-algorithm"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+debug = true
+
+[dependencies]
+plotters = "0.3.7"
+rand = "0.9.1"
